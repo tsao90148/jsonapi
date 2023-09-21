@@ -1,5 +1,6 @@
-
-from src.jsonapi.jsonapi import BetterEncoder, BetterDecoder, dumps, loads
+import unittest
+import json
+from src.jsonapi import BetterEncoder, BetterDecoder, dumps, loads
 
 
 class TestBetterEncoder(unittest.TestCase):
